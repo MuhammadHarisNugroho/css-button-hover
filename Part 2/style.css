@@ -52,3 +52,64 @@
       padding: 15px 20px;
       transition: 0.3s;
     }
+
+    /*--- btn-2 ---*/
+.btn-2::before {
+    background-color: rgb(28, 31, 30);
+    transition: 0.3s ease-out;
+  }
+  .btn-2 span {
+    color: rgb(28, 31, 30);
+    border: 1px solid rgb(28, 31, 30);
+    transition: 0.2s;
+  }  
+  .btn-2 span:hover {
+    color: rgb(255,255,255);
+    transition: 0.2s 0.1s;
+  }
+  
+  /* 6. hover-slide-down */
+  .btn.hover-slide-down::before {
+    top: 0; left: 0; right: 0; 
+    height: 0%; width: 100%;
+  }
+  .btn.hover-slide-down:hover::before {
+    height: 100%;
+  }
+  
+  /* 7. hover-slide-up */
+  .btn.hover-slide-up::before {
+    bottom: 0; left: 0; right: 0; 
+    height: 0%; width: 100%;
+  }
+  .btn.hover-slide-up:hover::before {
+    height: 100%;
+  }
+  
+  /* 8. hover-slide-left */
+  .btn.hover-slide-left::before {
+    top: 0; bottom: 0; right: 0; 
+    height: 100%; width: 0%;
+  }
+  .btn.hover-slide-left:hover::before {
+    width: 100%;
+  }
+  
+  /* 9. hover-slide-right */
+  .btn.hover-slide-right::before {
+    top: 0; bottom: 0; left: 0; 
+    height: 100%; width: 0%;
+  }
+  .btn.hover-slide-right:hover::before {
+    width: 100%;
+  }
+  
+  /* 10. hover-opacity */
+  .btn.hover-opacity::before {
+    top:0; bottom: 0; right: 0;
+    height: 100%; width: 100%;
+    opacity: 0;
+  }
+  .btn.hover-opacity:hover::before {
+    opacity: 1;
+  }
