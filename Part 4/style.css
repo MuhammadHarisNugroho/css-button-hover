@@ -53,4 +53,259 @@
       transition: 0.3s;
     }
 
-    
+    /*--- btn-4 ---*/
+.btn-4 span {
+    color: rgb(28, 31, 30);
+    background-color: rgb(245,245,245);
+  }
+  .btn-4 span:hover {
+    color: rgb(54, 56, 55);
+  }
+  .btn-4::before,
+  .btn-4::after {
+    width: 15%; height: 2px;
+    background-color: rgb(54, 56, 55);
+    z-index: 2;
+  }
+  
+  /* 16. hover-border-6 */
+  .btn.hover-border-6::before,
+  .btn.hover-border-6::after {
+    top: 0;
+    transition: width 0.2s 0.35s ease-out;
+  }
+  .btn.hover-border-6::before {
+    right: 50%;
+  }
+  .btn.hover-border-6::after {
+    left: 50%;
+  }
+  .btn.hover-border-6:hover::before,
+  .btn.hover-border-6:hover::after {
+    width: 50%;
+    transition: width 0.2s ease-in;   
+  }
+  
+  .btn.hover-border-6 span::before,
+  .btn.hover-border-6 span::after {
+    width: 0%; height: 0%;
+    background: transparent;
+    opacity: 0;
+    z-index: 2;
+    transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;
+  }
+  .btn.hover-border-6 span::before {
+    top: 0; left: 0;
+    border-left: 2px solid rgb(54, 56, 55);
+    border-bottom: 2px solid rgb(54, 56, 55);
+  }
+  .btn.hover-border-6 span::after {
+    top: 0; right: 0;
+    border-right: 2px solid rgb(54, 56, 55);
+    border-bottom: 2px solid rgb(54, 56, 55);
+  }
+  .btn.hover-border-6 span:hover::before,
+  .btn.hover-border-6 span:hover::after {
+    width: 50%; height: 96%;
+    opacity: 1;
+    transition: height 0.2s 0.2s ease-in, width 0.2s 0.4s linear, opacity 0s 0.2s;   
+  }
+  
+  /* 17. hover-border-7 */
+  .btn.hover-border-7::before,
+  .btn.hover-border-7::after {
+    bottom: 0;
+    transition: width 0.2s 0.35s ease-out;
+  }
+  .btn.hover-border-7::before {
+    right: 50%;
+  }
+  .btn.hover-border-7::after {
+    left: 50%;
+  }
+  .btn.hover-border-7:hover::before,
+  .btn.hover-border-7:hover::after {
+    width: 50%;
+    transition: width 0.2s ease-in;   
+  }
+  
+  .btn.hover-border-7 span::before,
+  .btn.hover-border-7 span::after {
+    width: 0%; height: 0%;
+    background: transparent;
+    opacity: 0;
+    z-index: 2;
+    transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;
+  }
+  .btn.hover-border-7 span::before {
+    bottom: 0; left: 0;
+    border-left: 2px solid rgb(54, 56, 55);
+    border-top: 2px solid rgb(54, 56, 55);
+  }
+  .btn.hover-border-7 span::after {
+    bottom: 0; right: 0;
+    border-right: 2px solid rgb(54, 56, 55);
+    border-top: 2px solid rgb(54, 56, 55);
+  }
+  .btn.hover-border-7 span:hover::before,
+  .btn.hover-border-7 span:hover::after {
+    width: 50%; height: 96%;
+    opacity: 1;
+    transition: height 0.2s 0.2s ease-in, width 0.2s 0.4s linear, opacity 0s 0.2s;   
+  }
+  
+  /* 18. hover-border-8 */
+  .btn.hover-border-8::before,
+  .btn.hover-border-8::after {
+    bottom: 0;
+    width: 15%;
+    transition: width 0.2s 0.35s ease-out;
+  }
+  .btn.hover-border-8::before {
+    right: 50%;
+  }
+  .btn.hover-border-8::after {
+    left: 50%;
+  }
+  .btn.hover-border-8:hover::before {
+    width: 50%;
+    transition: width 0.2s ease-in;   
+  }
+  .btn.hover-border-8:hover::after {
+    width: 50%;
+    transition: width 0.1s ease-in;   
+  }
+  
+  .btn.hover-border-8 span::before,
+  .btn.hover-border-8 span::after {
+    width: 0%; height: 0%;
+    bottom: 0;
+    background: transparent;
+    opacity: 0;
+    z-index: 2;
+  }
+  .btn.hover-border-8 span::before {
+    left: 0%;
+    border-left: 2px solid rgb(54, 56, 55);
+    transition: height 0.25s ease-in, opacity 0s 0.35s;   
+  }
+  .btn.hover-border-8 span:hover::before {
+    height: 96%;
+    opacity: 1;
+    transition: height 0.25s 0.2s ease-out, opacity 0s 0.2s;   
+  }
+  .btn.hover-border-8 span::after {
+    right: 0%;
+    border-right: 2px solid rgb(54, 56, 55);
+    border-top: 2px solid rgb(54, 56, 55);
+    transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;   
+  }
+  .btn.hover-border-8 span:hover::after {
+    width: 99%; height: 96%;
+    opacity: 1;
+    transition: height 0.15s 0.1s linear, width 0.2s 0.25s linear, opacity 0s 0.1s;   
+  }
+  
+  /* 19. hover-border-9 */
+  .btn.hover-border-9::before,
+  .btn.hover-border-9::after {
+    bottom: 0;
+    width: 15%;
+    transition: width 0.2s 0.35s ease-out;
+  }
+  .btn.hover-border-9::before {
+    right: 50%;
+  }
+  .btn.hover-border-9::after {
+    left: 50%;
+  }
+  .btn.hover-border-9:hover::before {
+    width: 50%;
+    transition: width 0.1s ease-in;   
+  }
+  .btn.hover-border-9:hover::after {
+    width: 50%;
+    transition: width 0.2s ease-in;   
+  }
+  
+  .btn.hover-border-9 span::before,
+  .btn.hover-border-9 span::after {
+    width: 0%; height: 0%;
+    bottom: 0;
+    background: transparent;
+    opacity: 0;
+    z-index: 2;
+  }
+  .btn.hover-border-9 span::after {
+    right: 0%;
+    border-right: 2px solid rgb(54, 56, 55);
+    transition: height 0.25s ease-in, opacity 0s 0.35s;   
+  }
+  .btn.hover-border-9 span:hover::after {
+    height: 96%;
+    opacity: 1;
+    transition: height 0.25s 0.2s ease-out, opacity 0s 0.2s;   
+  }
+  .btn.hover-border-9 span::before {
+    left: 0%;
+    border-left: 2px solid rgb(54, 56, 55);
+    border-top: 2px solid rgb(54, 56, 55);
+    transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;   
+  }
+  .btn.hover-border-9 span:hover::before {
+    width: 98.5%; height: 96%;
+    opacity: 1;
+    transition: height 0.15s 0.1s linear, width 0.2s 0.25s linear, opacity 0s 0.1s;   
+  }
+  
+  /* 20. hover-border-10 */
+  .btn.hover-border-10::before,
+  .btn.hover-border-10::after {
+    left: 0%;
+    height: 30%;
+    width: 2px;
+    transition: height 0.2s 0.35s ease-out;
+  }
+  .btn.hover-border-10::before {
+    top: 50%;
+  }
+  .btn.hover-border-10::after {
+    bottom: 50%;
+  }
+  .btn.hover-border-10:hover::before {
+    height: 50%;
+    transition: height 0.2s ease-in;   
+  }
+  .btn.hover-border-10:hover::after {
+    height: 50%;
+    transition: height 0.1s ease-in;   
+  }
+  
+  .btn.hover-border-10 span::before,
+  .btn.hover-border-10 span::after {
+    width: 0%; height: 0%;
+    background: transparent;
+    opacity: 0;
+    z-index: 2;
+  }
+  .btn.hover-border-10 span::after {
+    bottom: 0; left: 0%;
+    border-bottom: 2px solid rgb(54, 56, 55);
+    transition: width 0.25s ease-in, opacity 0s 0.35s;   
+  }
+  .btn.hover-border-10 span:hover::after {
+    width: 100%;
+    opacity: 1;
+    transition: width 0.25s 0.2s ease-out, opacity 0s 0.2s;   
+  }
+  .btn.hover-border-10 span::before {
+    top: 0%; left: 0%;
+    border-top: 2px solid rgb(54, 56, 55);
+    border-right: 2px solid rgb(54, 56, 55);
+    transition: height 0.15s ease-in, width 0.2s 0.15s linear, opacity 0s 0.35s;   
+  }
+  .btn.hover-border-10 span:hover::before {
+    width: 98.5%; height: 96%;
+    opacity: 1;
+    transition: width 0.2s 0.1s linear, height 0.15s 0.3s ease-out, opacity 0s 0.1s;   
+  }
